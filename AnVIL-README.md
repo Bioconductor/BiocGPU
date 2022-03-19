@@ -1,8 +1,8 @@
 # Bioconductor on AnVIL GPU
 
-Bioconductor has been recieving R packages that use an interface to run python libraries. These packages
-use machine learning and deep learning libraries that are commonly used such as `scikit-learn`, `tensorflow`, 
-and `keras`.
+## Introduction
+
+Bioconductor has been recieving R packages that use an interface to run python libraries. These packages use machine learning and deep learning libraries that are commonly used such as `scikit-learn`, `tensorflow`, and `keras`.
 
 - 'Scikit-learn' is an open source machine learning library that supports supervised and unsupervised learning. 
 
@@ -20,4 +20,4 @@ Some of the Bioconductor packages that use "reticulate" to interface with are li
 
 This workspace demonstrates the how to use the AnVIL environment to run a Bioconductor package on a GPU based 
     
-![Enable GPU on cloud environment](./enable-gpu-on-anvil)
+![Enable GPU on cloud environment](enable-gpu-on-anvil.png)
