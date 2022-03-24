@@ -28,7 +28,7 @@ These machine learning packages run faster when using GPU based cloud environmen
  
 2. Choose a GPU type, and the number of GPUs. The default setting will work for this workspace. 
 
-![env](https://raw.githubusercontent.com/nturaga/BiocGPU/master/enable-gpu-on-anvil.jpg)
+![env](https://raw.githubusercontent.com/nturaga/BiocGPU/master/image/enable-gpu-on-anvil.jpg)
 
 3. Go to the Notebooks tab, and run the **VAExprs_Bioconductor_on_terra_GPU** notehook with the GPU Enabled cloud environment just launched. 
 
