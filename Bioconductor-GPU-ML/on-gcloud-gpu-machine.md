@@ -78,3 +78,10 @@ pip3 install keras tensorflow
 BiocManager::install(c('SC3', 'VAExprs'))
 ```
 
+- Set virtual env
+
+```
+reticulate::use_virtualenv('.pyenv/versions/vaexprs/vaexprs/')
+
+keras::is_keras_available() & reticulate::py_available()
+```
